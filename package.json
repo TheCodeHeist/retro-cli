@@ -1,0 +1,27 @@
+{
+  "name": "retro-cli",
+  "version": "1.0.0",
+  "description": "Something..",
+  "main": "./src/index.js",
+  "bin": {
+    "@thecodeheist/retro": "bin/retro",
+    "retro": "bin/retro"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCodeHeist/retro-cli.git"
+  },
+  "author": "Md. Riyasat Hossain (TheCodeHeist)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheCodeHeist/retro-cli/issues"
+  },
+  "homepage": "https://github.com/TheCodeHeist/retro-cli#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "inquirer": "^8.1.4"
+  }
+}
